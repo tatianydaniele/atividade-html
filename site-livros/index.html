@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca Online - Início</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+            color: #333;
+        }
+        header {
+            background: rgba(255,255,255,0.7);
+            padding: 40px;
+            text-align: center;
+            border-bottom: 2px solid #ccc;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover { color: #6a0dad; }
+        main { padding: 20px; text-align: center; }
+        .destaques {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .destaques img {
+            width: 200px;   /* aumentado */
+            height: 300px;  /* aumentado */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+            transition: transform 0.3s;
+        }
+        .destaques img:hover {
+            transform: scale(1.05); /* efeito ao passar o mouse */
+        }
+        footer {
+            margin-top: 20px;
+            background: rgba(255,255,255,0.7);
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BEM-VINDO AO UNIVERSO DOS LIVROS 📚</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="conteudo.html">Conteúdo</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>UM UNIVERSO EM PALAVRAS</h2>
+        <p>Aqui você encontra dicas, sinopses e recomendações de leitura para todos os gostos.</p>
+        
+        <h3>Destaques</h3>
+        <div class="destaques">
+            <img src="https://m.media-amazon.com/images/I/71mFm0rJiML._SL1500_.jpg" alt="O Pequeno Príncipe">
+            <img src="https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg" alt="1984">
+            <img src="https://m.media-amazon.com/images/I/81iqZ2HHD-L.jpg" alt="Harry Potter e a Pedra Filosofal">
+        </div>
+    </main>
+
+    <footer>
+        <p>Biblioteca Online &copy; 2025
+            Tatiany Daniele Souto Mayo
+        </p>
+    </footer>
+</body>
+</html>
